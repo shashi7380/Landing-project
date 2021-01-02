@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: auto;
+padding-top: 2%;
+    
+}
+h1{
+    text-align: center;
+}
+#header{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: green;
+}
+.nav-link{
+    float: right;
+}
+
+.active {
+    background-color:crimson;
+}
+#form,input{
+    font-size: 20px;
+    margin-left: 10%;
+    padding-right: 2%;
+
+}
+ #form,#submit,input{
+     font-size: 20px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ #submit{
+    background-color: green;
+    color: white;
+}
+#submit:hover{
+    background-color: crimson;
+}
+#email:hover{
+    background-color: crimson;
+}
+
+video{
+    margin-left: 8%;
+}
+
+
+/* form css  */
+.body{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 2%;
+
+}
+.form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+input{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+margin-bottom: 16px;
+}
+/* /* style the login button */
+button{
+    background-color:darkgreen;
+    color:white;
+    width: 10%;
+    height: 2em;
+ 
+    border: none;
+    border-radius: 2%;
+}         
+.form div {
+    margin-left: 10%;
+} 
+.form label{
+    margin-left: 10%;
+}
