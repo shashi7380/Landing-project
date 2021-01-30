@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Project</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-    
-    <header id="header">
-        <nav id="nav-bar">
-            <ul>
-                <li class="active"><a href="#">Home</a></li> 
-                <li><a href="#">Product</a></li>
-                <li><a href="#">News Latter </a></li>
-                <li class="nav-link"><a href="#"><i class="fa fa-th-list" aria-hidden="true"></i></a></li>
-                <li class="nav-link"><a href="login.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                <img src="" alt="" id="header-image">
-            </ul>
-        </nav>
-    </header> <br>
-    <br>
-    
-    <form action=" https://www.freecodecamp.com/email-submit" id="form">
+  
 
-        <input type="email" id="email"  placeholder="Enter your email address"> <br>
-        <br>
-        <input type="submit" id="submit" value="submit">
+
+<!-- <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/> -->
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src=""
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#Home">Home</a></li>
+        <li><a class="nav-link" href="#Product">Product</a></li>
+        <li><a class="nav-link" href="#Service">Service</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="right">
+    <h2>Best quality of product </h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="SUBMIT" class="btn" />
     </form>
-    <br>
-    <video  width="50%" height="40%" controls>
+  </section>
 
-<source src="../media/video.mp4" type="video/mp4">
-
-
-    </video>
-    
-
-
-
+  <div class="container">
+    <section id="Home">
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-renren" aria-hidden="true"></i>
+        </div>
+        <div class="up">
+          <h2>References</h2>
+          <p>
+            A reference landing page presents information that is relevant to the visitor. These can display text, images, dynamic compilations of relevant links, or other elements.[4] The idea is to isolate the visitor in this landing page from any other distractions, like full website menu, or "similar products", and surround the visitor with all available information about the targeted product to convince him to take action and get captured. The "References" landing page type should be a transitional stage before the second type which is the "Transactional" Type.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa  fa-3x fa-snowflake-o" aria-hidden="true"></i></div>
+        <div class="up">
+          <h2>List pages</h2>
+          <p>
+            List pages enumerate items of a particular type, such as the List of sovereign states or List of South Africans. Wikipedia has "lists of lists" when there are too many items to fit on a single page, when the items can be sorted in different ways, or as a way of navigating lists on a topic (for example Lists of countries and territories or Lists of people). There are several ways to find lists:
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa  fa-3x fa-podcast" aria-hidden="true"></i>
+        </div>
+        <div class="up">
+          <h2>Quality Product</h2>
+          <p>
+            Landing pages originated with the IT departments of Microsoft in late 2003 in response to poor online sales of Office.[5] The process was tedious and time-consuming. As a result, in 2009, several startups, including Unbounce, were formed to simplify and streamline the process. The rise of cloud computing and e-commerce around 2009 provided ideal conditions for these startups to flourish.[5] Since then the customer requirements changed, requesting integrations with other solutions such as email marketing, lead nurturing and customer relationship management systems.
+           <a href="https://en.wikipedia.org/wiki/2020s_in_political_history">major current political news and developments <u>CLICK ME LINK</u></a>
+          </p>
+        
+        </div>
+      </div>
+    </section>
+    <section id="Product">
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/wY6UyatwVTA?start=23" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="Service">
+      <div class="selling" >
+        <div class="level">Trending price</div>
+        <h2>$800</h2>
+        <ol>
+          <li>Lorem ipsum is the best product</li>
+          <li>Lorem ipsum is the best product</li>
+          <li>Lorem ipsum dolor is the best website</li>
+          <li>Lorem ipsum4556565565</li>
+        </ol>
+        <button class="btn">Click Me</button>
+      </div>
+      <div class="selling" >
+        <div class="level">Trending price</div>
+        <h2>$1000</h2>
+        <ol>
+          <li>Lorem ipsum .That is the best product selling</li>
+          <li>Lorem ipsum.That is the best product selling</li>
+          <li>Lorem ipsum dolor.That is the best product selling</li>
+          <li>Lorem ipsum.That is the best product selling</li>
+        </ol>
+        <button class="btn">Click Me</button>
+      </div>
+      <div class="selling" >
+        <div class="level">Trending price</div>
+        <h2>$200</h2>
+        <ol>
+          <li>My product is the best price</li>
+          <li>Best design of product</li>
+          <li>Lorem ipsum dolor. Hello friends</li>
+          <li>Lorem ipsum. 1223555</li>
+        </ol>
+        <button class="btn">Click Me</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>@copyright 2020-2021 Design IT  Department Batch Final year</span>
+    </footer>
+  </div>
+</div>
 </body>
-
 </html>
